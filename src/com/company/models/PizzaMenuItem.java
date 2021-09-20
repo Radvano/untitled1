@@ -5,6 +5,12 @@ public class PizzaMenuItem {
     private int cena;
     private String popis;
 
+    public PizzaMenuItem(String jmeno, String popis, int cena){
+        this.jmeno = jmeno;
+        this.popis = popis;
+        this.cena = cena;
+    }
+
     public void setPopis(String popis) {
         this.popis = popis;
     }
